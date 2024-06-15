@@ -1,0 +1,15 @@
+Open Command Prompt and type ipconfig.
+
+IPv4 Address under your network connection
+
+ IPv4 Address. . . . . . . . . . . : 10.0.7.26
+
+# settings.py
+ALLOWED_HOSTS = ['your_machine_ip', 'localhost', '127.0.0.1']
+
+python manage.py runserver your_machine_ip:8000
+
+Mobile/Laptop on the Same Network: 
+Open a web browser and go to http://your_machine_ip:8000
+
+Open a web browser and go to http://your_machine_ip:8000/index
